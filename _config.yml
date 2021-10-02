@@ -4,7 +4,7 @@ greetings: Namasthe 👋
 description: >-
   just a minimalist, personal blog
 lang: en-US
-timezone:  Asia/IND
+timezone:  Asia/Kolkata
 repo: https://github.com/mnk17arts/plan2k22 # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
