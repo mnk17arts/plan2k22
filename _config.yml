@@ -2,15 +2,15 @@ site: plan2k22
 title: plan2k22
 greetings: Namasthe 👋
 description: >-
-  just a minimalist, personal blog
+  my journey to 2k22 problems
 lang: en-US
 timezone:  Asia/Kolkata
 repo: https://github.com/mnk17arts/plan2k22 # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: mnk17arts
-  bio: just a minimalist, personal blog
+  name: Madhapur Nitish Kumar
+  bio: Competative Coder | Frontend Web Developer
   userpicture: 
   username: mnk17arts # general username
   github: mnk17arts # github username
