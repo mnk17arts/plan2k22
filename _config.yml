@@ -1,12 +1,12 @@
 site: plan2k22
 title: plan2k22
-greetings: Namasthe 👋
+greetings: Namasthe 🙏
 description: >-
   my journey to 2k22 problems
 lang: en-US
 timezone:  Asia/Kolkata
 repo: https://github.com/mnk17arts/plan2k22 # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
+data-theme: light # default theme "dark" | "light"
 
 author:
   name: Madhapur Nitish Kumar
