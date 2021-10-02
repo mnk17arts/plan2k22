@@ -1,8 +1,9 @@
-# Gesko
+# plan2k22
+Simple and minimal Jekyll blog which are comprised of my journey to complete 2k22 problems.
 
-Simple and minimal Jekyll blog. 
-Forked from [Asko](https://github.com/manuelmazzuola/asko).
-Original theme from [Sidey](https://github.com/ronv/sidey).
+This project template is taken from [P0WEX](https://github.com/P0WEX/Gesko) (
+Forked from [Asko](https://github.com/manuelmazzuola/asko). [Original theme from [Sidey](https://github.com/ronv/sidey).] )
+
 
 ### Features
 
