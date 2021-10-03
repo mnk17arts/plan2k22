@@ -8,8 +8,8 @@ tags:
     - array
     - leetcode
     - cpp
-    - medium
-minute: 5 min
+    - easy
+minute: 3 min
 ---
 
 ## Problem Statement - [*link*](https://leetcode.com/problems/search-insert-position/)
