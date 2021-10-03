@@ -7,7 +7,7 @@ tags:
     - binary-search
     - leetcode
     - cpp
-    - medium
+    - easy
 minute: 3 min
 ---
 
