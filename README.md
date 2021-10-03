@@ -6,8 +6,8 @@ Forked from [Asko](https://github.com/manuelmazzuola/asko). [Original theme from
 
 ## Screenshot
 
-![light-theme](https://github.com/mnk17arts/plan2k22/blob/master/light-theme.png)
-![dark-theme](https://github.com/mnk17arts/plan2k22/blob/master/dark-theme.png)
+![dark-theme](https://github.com/mnk17arts/plan2k22/blob/main/dark-theme.png?raw=true)
+![light-theme](https://github.com/mnk17arts/plan2k22/blob/main/light-theme.png?raw=true)
 
 ## Installation
 
