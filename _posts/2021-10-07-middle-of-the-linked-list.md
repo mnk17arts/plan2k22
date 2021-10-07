@@ -4,12 +4,12 @@ title: Middle of the Linked List
 description: 
 summary: 
 tags:
-    - linked-list
-    - pointer
+    - linkedlist
+    - pointers
     - leetcode
     - cpp
     - easy
-minute: 5 min
+minute: 2 min
 ---
 
 ## Problem Statement - [*link*](https://leetcode.com/problems/middle-of-the-linked-list/)
