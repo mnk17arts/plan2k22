@@ -4,8 +4,8 @@ title: Remove Nth Node From End of List
 description: 
 summary: 
 tags:
-    - linked-list
-    - pointer
+    - linkedlist
+    - pointers
     - leetcode
     - cpp
     - medium
