@@ -5,7 +5,7 @@ description:
 summary: 
 tags:
     - bitmasks
-    - DFS
+    - dfs
     - codeforces
     - cpp
     - medium
