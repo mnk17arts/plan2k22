@@ -4,10 +4,10 @@ title: Max Area of Island
 description: 
 summary: 
 tags:
-    - DFS
+    - dfs
     - array
     - matrix
-    - BFS
+    - bfs
     - leetcode
     - cpp
     - medium
