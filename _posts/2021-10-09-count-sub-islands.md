@@ -4,8 +4,8 @@ title: Count Sub Islands
 description: 
 summary: 
 tags:
-    - DFS
-    - BFS
+    - dfs
+    - bfs
     - array
     - matrix
     - leetcode
