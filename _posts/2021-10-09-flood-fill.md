@@ -4,10 +4,10 @@ title: Flood Fill
 description: 
 summary: 
 tags:
-    - DFS
+    - dfs
     - array
     - matrix
-    - BFS
+    - bfs
     - leetcode
     - cpp
     - easy
