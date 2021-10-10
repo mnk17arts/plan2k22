@@ -4,8 +4,8 @@ title: Find All Groups of Farmland
 description: 
 summary: 
 tags:
-    - DFS
-    - BFS
+    - dfs
+    - bfs
     - array
     - matrix
     - leetcode
