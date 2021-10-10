@@ -6,8 +6,8 @@ summary:
 tags:
     - tree
     - binary-tree
-    - DFS
-    - BFS
+    - dfs
+    - bfs
     - leetcode
     - cpp
     - medium
