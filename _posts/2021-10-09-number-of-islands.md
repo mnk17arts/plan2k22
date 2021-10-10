@@ -6,8 +6,8 @@ summary:
 tags:
     - array
     - matrix
-    - DFS
-    - BFS
+    - dfs
+    - bfs
     - leetcode
     - cpp
     - medium
