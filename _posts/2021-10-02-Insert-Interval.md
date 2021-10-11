@@ -48,12 +48,12 @@ Output: [[1,7]]
 ```
 
 ### Constraints
-+ `0 <= intervals.length <= 104`
++ `0 <= intervals.length <= 10^4`
 + `intervals[i].length == 2`
-+ `0 <= starti <= endi <= 105`
++ `0 <= starti <= endi <= 10^5`
 + `intervals` is sorted by `starti` in ascending order.
 + `newInterval.length == 2`
-+ `0 <= start <= end <= 105`
++ `0 <= start <= end <= 10^5`
 
 ## Solution
 ```cpp
