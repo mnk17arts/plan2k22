@@ -41,18 +41,21 @@ Explanation: There are three ways to climb to the top.
 
 ## Solution
 ```cpp
+
 class Solution {
 public:
     int climbStairs(int n) {
-        vector<int> mnk(n+1,1);
-        for(int i=1; i<=n ; i++ ){
-            int steps = 0;
-            if( i-2 >= 0 )
-                 steps+=mnk[i-2];
-            steps+=mnk[i-1];
-            mnk[i]=steps;
+        int dp[n+1];
+        dp[0] = 1;
+        for(int i=1; i<n+1; i++){
+            int waystoi = 0;
+            if(i-2 >= 0)
+                waystoi = dp[i-2];
+            waystoi += dp[i-1];
+            dp[i] = waystoi;
         }
-        return mnk[n];
+        return dp[n];
     }
 };
+
 ```
