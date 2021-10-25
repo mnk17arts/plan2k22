@@ -57,7 +57,9 @@ Output: -1
 class Solution {
 public:
     
-    int xy[8][2] = {{1,1}, {0,1}, {1,0}, {-1,-1}, {0,-1}, {-1,1}, {-1,0}, {1,-1}};
+    int xy[8][2] = {
+        {1,1}, {0,1}, {1,0}, {-1,-1}, {0,-1}, {-1,1}, {-1,0}, {1,-1}
+        };
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int s=grid.size();
         if(grid[0][0] or grid[s-1][s-1]) return -1;
