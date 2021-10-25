@@ -34,8 +34,8 @@ Output: 2
 **Example 2:**   
 <img src="https://assets.leetcode.com/uploads/2021/02/18/example2_1.png">
 ``` 
-Input: board = [["X"]]
-Output: [["X"]]
+Input: grid = [[0,0,0],[1,1,0],[1,1,0]]
+Output: 4
 ```
 
 **Example 3:**   

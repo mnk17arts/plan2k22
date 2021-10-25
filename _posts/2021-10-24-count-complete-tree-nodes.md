@@ -72,6 +72,5 @@ public:
         return 1+countNodes(root->left)+countNodes(root->right);
     }
 };
-};
 ```
 
