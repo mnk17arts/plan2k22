@@ -5,7 +5,7 @@ description:
 summary: 
 tags:
     - array
-    - bit-masks
+    - bitmasks
     - backtracking
     - leetcode
     - cpp
