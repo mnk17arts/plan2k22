@@ -3,7 +3,6 @@ layout: post
 title: Coin Change
 description: 
 summary:
-date: 2021-11-03T00:00:00+09:00 
 tags:
     - array
     - bfs
