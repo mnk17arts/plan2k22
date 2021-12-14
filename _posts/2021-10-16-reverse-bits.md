@@ -4,7 +4,7 @@ title: Reverse Bits
 description: 
 summary: 
 tags:
-    - divide&conquer
+    - divide-conquer
     - bit-manipulation
     - leetcode
     - cpp
