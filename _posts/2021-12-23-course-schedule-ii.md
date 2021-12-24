@@ -3,8 +3,9 @@ layout: post
 title: Course Schedule II
 summary:
 tags:
-    - linkedlist
-    - pointers
+    - dfs
+    - bfs
+    - graph
     - leetcode
     - cpp
     - medium
