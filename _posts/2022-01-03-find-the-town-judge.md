@@ -3,7 +3,7 @@ layout: post
 title: Find the Town Judge
 summary:
 tags:
-    - arra
+    - array
     - leetcode
     - cpp
     - easy
