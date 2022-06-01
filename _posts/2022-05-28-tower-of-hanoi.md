@@ -19,7 +19,7 @@ Note: The discs are arranged such that the top disc is numbered `1` and the bott
 You don't need to read input or print anything. You only need to complete the function `toh()` that takes following parameters: `N`(number of discs), `from` (The rod number from which we move the disc), `to` (The rod number to which we move the disc), `aux` (The rod that is used as an auxiliary rod) and prints the required moves inside function body (See the example for the format of the output) as well as return the count of total moves made. The total number of moves are printed by the driver code.
 Please take care of the case of the letters.
 
-**Expected Time Complexity**: ` O(2^N)`.   
+**Expected Time Complexity**: `O(2^N)`.     
 **Expected Auxiliary Space:**   `O(N)`.
 
 

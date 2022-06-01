@@ -1,0 +1,97 @@
+---
+layout: post
+title: Frequencies of Limited Range Array Elements 
+summary:
+tags:
+    - array
+    - hash
+    - geeksforgeeks
+    - cpp
+    - easy
+minute: 6 min
+---
+
+## Problem Statement - [*link*](https://practice.geeksforgeeks.org/problems/wave-array-1587115621/1/?track=DSASP-Arrays&batchId=154#)  
+
+Given an array `A[]` of `N` positive integers which can contain integers from `1` to `P` where elements can be repeated or can be absent from the array. Your task is to count the frequency of all elements from `1` to `N`.
+**Note:** The elements greater than `N` in the array can be ignored for counting and please read your task section of the problem carefully to understand how to output the array.
+
+
+**Your Task:** 
+Complete the function `frequencycount()` that takes the array and `n` as input parameters and modify the array itself in place to denote the frequency count of each element from `1` to `N`. i,e element at index `0` should represent the frequency of `1` and so on.
+
+
+**Note:** Can you solve this problem without using extra space `(O(1) Space) !`
+
+
+### Examples
+
+**Example 1:**   
+```
+Input:
+N = 5
+arr[] = {2, 3, 2, 3, 5}
+P = 5
+Output:
+0 2 2 0 1
+Explanation: 
+Counting frequencies of each array element
+We have:
+1 occurring 0 times.
+2 occurring 2 times.
+3 occurring 2 times.
+4 occurring 0 times.
+5 occurring 1 time.
+```
+
+**Example 2:**   
+```
+Input:
+N = 4
+arr[] = {3,3,3,3}
+P = 3
+Output:
+0 0 4 0
+Explanation: 
+Counting frequencies of each array element
+We have:
+1 occurring 0 times.
+2 occurring 0 times.
+3 occurring 4 times.
+4 occurring 0 times.
+```
+
+### Constraints
+
++ `1 <= n <= 10^5`
++ `1 <= P <= 4*10^4`
++ `1 ≤ arr[i] <= P`
+
+## Solutions
+
+```cpp
+class Solution{
+    public:
+    //Function to count the frequency of all elements from 1 to N in the array.
+    void frequencyCount(vector<int>& arr,int N, int P)
+    { 
+        // code here
+        int ci = 0;
+        for(int i=0; i<N; i++){
+            if(arr[i]>N) {
+                arr[i] = 0;
+                ci++;
+            }
+            else
+                arr[i]--;
+        }
+        for(int i=0; i<N; i++)
+            arr[arr[i]%N]+=N;
+        for(int i=0; i<N; i++){
+            if(i==0) arr[i]-=(N*ci);
+            arr[i]/=N;
+        }
+    }
+};
+```
+

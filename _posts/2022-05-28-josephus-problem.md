@@ -19,8 +19,8 @@ The task is to choose the safe place in the circle so that when you perform thes
 **Your Task:** 
 You don't need to read input or print anything. You are required to complete the function `josephus ()` that takes two parameters `n` and `k` and returns an integer denoting safe position. 
 
-**Expected Time Complexity**: ` O(N)`.   
-**Expected Auxiliary Space:**   `O(N)`.
+**Expected Time Complexity**: `O(N)`.    
+**Expected Auxiliary Space:**  `O(N)`.
 
 
 ### Examples
