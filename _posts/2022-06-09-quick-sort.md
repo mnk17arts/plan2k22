@@ -26,7 +26,7 @@ Implement the `partition()` and `quickSort()` functions to sort the array.
 You don't need to read input or print anything. Your task is to complete the functions `partition()`  and `quickSort()` which takes the array arr[], low and high as input parameters and partitions the array. Consider the last element as the pivot such that all the elements less than(or equal to) the pivot lie before it and the elements greater than it lie after the pivot. 
 
 
-**Expected Time Complexity:** `O(N^logN)`  
+**Expected Time Complexity:** `O(NlogN)`  
 **Expected Auxiliary Space:** `O(1)`
 
 ### Examples
