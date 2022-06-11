@@ -28,15 +28,13 @@ You don't need to read input or print anything. Your task is to complete the fun
 ```
 Input:
 R = 3, C = 3
-M = [[1, 3, 5], 
-     [2, 6, 9], 
-     [3, 6, 9]]
+M = [[1, 3, 5],  [2, 6, 9], [3, 6, 9]]
 
 Output: 5
 
 Explanation:
 Sorting matrix elements gives us 
-{1,2,3,3,5,6,6,9,9}. Hence, 5 is median. 
+[1,2,3,3,5,6,6,9,9]. Hence, 5 is median. 
 ```
 
 **Example 2:**   

@@ -27,9 +27,7 @@ You dont need to read input or print anything. Complete the function `rotateby90
 ```
 Input:
 N = 3 
-matrix[][] = {{1, 2, 3},
-              {4, 5, 6}
-              {7, 8, 9}}
+matrix[][] = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 Output: 
 Rotated Matrix:
 3 6 9
@@ -41,8 +39,7 @@ Rotated Matrix:
 ```
 Input:
 N = 2
-matrix[][] = {{1, 2},
-              {3, 4}}
+matrix[][] = [[1, 2], [3, 4]]
 Output: 
 Rotated Matrix:
 2 4

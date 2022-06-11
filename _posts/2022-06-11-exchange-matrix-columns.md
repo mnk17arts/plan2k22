@@ -26,10 +26,7 @@ You don't need to take input or print anything. Complete the function `exchangeC
 ```
 Input:
 n1 = 4, m1 = 4
-matrix[][] = {{1, 2, 3, 4},
-              {5, 6, 7, 8},
-              {9, 10, 11, 12},
-              {13, 14, 15,16}}
+matrix[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15,16]]
 Output: 
 4 2 3 1 8 6 7 5 12 10 11 9 16 14 15 13
 Explanation:
@@ -50,8 +47,7 @@ last column, we have matrix as follows:
 ```
 Input:
 n1 = 2, m1 = 3
-matrix[][] = {{4, 3, 2},
-              {1, 5, 6}}
+matrix[][] = [[4, 3, 2], [1, 5, 6]]
 Output: 2 3 4 6 5 1
 Explanation:
 Matrix is as follows:

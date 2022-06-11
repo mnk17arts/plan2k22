@@ -28,9 +28,7 @@ You dont need to read input or print anything. Complete the function `snakePatte
 ```
 Input:
 N = 3 
-matrix[][] = {{45, 48, 54},
-             {21, 89, 87}
-             {70, 78, 15}}
+matrix[][] = [[45, 48, 54], [21, 89, 87], [70, 78, 15]]
 Output: 45 48 54 87 89 21 70 78 15 
 Explanation:
 Matrix is as below:
@@ -45,8 +43,7 @@ the output as 45 48 54 87 89 21 70 78 15.
 ```
 Input:
 N = 2
-matrix[][] = {{1, 2},
-              {3, 4}}
+matrix[][] = [[1, 2], [3, 4]]
 Output: 1 2 4 3
 Explanation:
 Matrix is as below:

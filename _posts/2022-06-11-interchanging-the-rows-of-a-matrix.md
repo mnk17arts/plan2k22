@@ -27,10 +27,7 @@ You dont need to read input or print anything. Complete the function `interchang
 Input:
 Input:
 n1 = 4, m1 = 4
-matrix[][] = {{1, 2, 3, 4},
-             {5, 6, 7, 8},
-             {9, 10, 11, 12},
-             {13, 14, 15,16}}
+matrix[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15,16]]
 Output: 
 13 14 15 16 9 10 11 12 5 6 7 8 1 2 3 4
 Explanation:
@@ -47,11 +44,7 @@ Note: Output is printed row-wise linearly.
 Input:
 n1 = 5, m1 = 3
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-matrix[][] = {{1, 2, 3},
-             {4, 5, 6},
-             {7, 8, 9},
-             {10, 11, 12},
-             {13, 14, 15}}
+matrix[][] = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12], [13, 14, 15]]
 Output: 
 13 14 15 10 11 12 7 8 9 4 5 6 1 2 3
 Explanation:

@@ -26,10 +26,7 @@ Complete the function `boundaryTraversal()` that takes `matrix`, `n and m` as in
 ```
 Input:
 n = 4, m = 4
-matrix[][] = {{1, 2, 3, 4},
-         {5, 6, 7, 8},
-         {9, 10, 11, 12},
-         {13, 14, 15,16}}
+matrix[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15,16]]
 Output: 1 2 3 4 8 12 16 15 14 13 9 5
 Explanation:
 The matrix is:
@@ -45,9 +42,7 @@ The boundary traversal is:
 ```
 Input:
 n = 3, m = 4
-matrrix[][] = {{12, 11, 10, 9},
-         {8, 7, 6, 5},
-         {4, 3, 2, 1}}
+matrrix[][] = [[12, 11, 10, 9], [8, 7, 6, 5], [4, 3, 2, 1]]
 Output: 12 11 10 9 5 1 2 3 4 8
 ```
 

@@ -28,10 +28,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 ```
 Input: 
 N = 4 , M = 4
-Arr[][] = {{0, 1, 1, 1},
-           {0, 0, 1, 1},
-           {1, 1, 1, 1},
-           {0, 0, 0, 0}}
+Arr[][] = [[0, 1, 1, 1], [0, 0, 1, 1], [1, 1, 1, 1], [0, 0, 0, 0]]
 Output: 2
 Explanation: Row 2 contains 4 1's (0-based
 indexing). 
@@ -41,7 +38,7 @@ indexing).
 ```
 Input: 
 N = 2, M = 2
-Arr[][] = {{0, 0}, {1, 1}}
+Arr[][] = [[0, 0], [1, 1]]
 Output: 1
 Explanation: Row 1 contains 2 1's (0-based
 indexing).

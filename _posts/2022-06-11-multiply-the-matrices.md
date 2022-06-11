@@ -30,28 +30,23 @@ You dont need to read input or print anything. Complete the function `multiplyMa
 ```
 Input:
 n1 = 3, m1 = 2
-A[][] = {{4, 8},
-         {0, 2}
-         {1, 6}}
+A[][] = [[4, 8], [0, 2], [1, 6]]
 n2 = 2, m2 = 2
-B[][] = {{5, 2},
-         {9, 4}}
+B[][] = [[5, 2], [9, 4]]
 Output: 92 40 18 8 59 26
 Explanation:
 Matrices are of size 3 x 2 and 2 x 2 which 
 results in 3 x 2 matrix with elements as:
-res[][] = {{92, 40},
-           {18, 8}
-           {59, 26}}
+res[][] = [[92, 40], [18, 8], [59, 26]]
 ```
 
 **Example 2:**   
 ```
 Input:
 n1 = 1, m1 = 1
-A[][] = {2}
+A[][] = [2]
 n2 = 1, m2 = 1
-B[][] = {3}
+B[][] = [3]
 Output: 6
 Explanation: Both matrices are of size 1 x 1 
 which results in 1 x 1 matrix having element 6.

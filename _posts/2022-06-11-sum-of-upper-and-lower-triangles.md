@@ -26,9 +26,7 @@ You don't need to read input or print anything. Complete the function `sumTriang
 ```
 Input:
 N = 3 
-mat[][] = {{6, 5, 4},
-           {1, 2, 5}
-           {7, 9, 7}}
+mat[][] = [[6, 5, 4], [1, 2, 5], [7, 9, 7]]
 Output: 29 32
 Explanation:
 The given matrix is
@@ -51,8 +49,7 @@ Sum of these elements is 6+1+2+7+9+7= 32.
 ```
 Input:
 N = 2
-mat[][] = {{1, 2},
-           {3, 4}}
+mat[][] = [[1, 2], [3, 4]]
 Output: 7 8
 Explanation:
 Upper triangular matrix:

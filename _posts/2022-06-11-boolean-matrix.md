@@ -26,8 +26,7 @@ You dont need to read input or print anything. Complete the function `booleanMat
 ```
 Input:
 R = 2, C = 2
-matrix[][] = {{1, 0},
-              {0, 0}}
+matrix[][] = [[1, 0], [0, 0]]
 Output: 
 1 1
 1 0 
@@ -41,10 +40,7 @@ cells in column 0 are modified to 1.
 ```
 Input:
 R = 4, C = 3
-matrix[][] = {{ 1, 0, 0},
-              { 1, 0, 0},
-              { 1, 0, 0},
-              { 0, 0, 0}}
+matrix[][] = [[ 1, 0, 0], [ 1, 0, 0], [ 1, 0, 0], [ 0, 0, 0]]
 Output: 
 1 1 1
 1 1 1

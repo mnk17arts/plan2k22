@@ -28,8 +28,7 @@ You don't need to read input or print anything. Complete the function `findMinOp
 ```
 Input:
 N = 2
-matrix[][] = {{1, 2},
-              {3, 4}}
+matrix[][] = [[1, 2], [3, 4]]
 Output: 4
 Explanation:
 Updated matrix:
@@ -44,9 +43,7 @@ Hence total 4 operation are required.
 ```
 Input:
 N = 3
-matrix[][] = {{1, 2, 3},
-              {4, 2, 3},
-              {3, 2, 1}}
+matrix[][] = [[1, 2, 3], [4, 2, 3], [3, 2, 1]]
 Output: 6
 Explanation:
 Original matrix is as follows:
