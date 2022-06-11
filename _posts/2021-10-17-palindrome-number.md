@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Search a 2D Matrix
+title:  Palindrome Number
 description: 
 summary: 
 tags:
