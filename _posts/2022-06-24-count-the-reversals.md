@@ -53,16 +53,20 @@ this sequence of braces.
 ```cpp
 class Solution{
     public:
-    int n=s.size();
-    if(n%2)return -1;
-    int open=0,close=0,res=0;
-    for(int i=0;i<n;i++){
-        if(s[i]=='}')
-            if(open<=close){res++;open++;}
-            else close++;
-        else open++;
+    int countRev (string s)
+    {
+        // your code here
+        int n=s.size();
+        if(n%2)return -1;
+        int open=0,close=0,res=0;
+        for(int i=0;i<n;i++){
+            if(s[i]=='}')
+                if(open<=close){res++;open++;}
+                else close++;
+            else open++;
+        }
+        return res+abs(open-close)/2;
     }
-    return res+abs(open-close)/2;
 };
 ```
 
