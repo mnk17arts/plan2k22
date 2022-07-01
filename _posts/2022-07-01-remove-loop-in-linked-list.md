@@ -1,0 +1,113 @@
+---
+layout: post
+title: Remove loop in Linked List    
+summary:
+tags:
+    - linkedlist
+    - 2pointers
+    - geeksforgeeks
+    - cpp
+    - medium
+minute: 7 min
+---
+
+## Problem Statement - [*link*](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/0/?)  
+
+Given a linked list of `N` nodes such that it may contain a loop.
+
+A loop here means that the last node of the link list is connected to the node at position `X`. If the link list does not have any loop, `X=0`.
+
+Remove the loop from the linked list, if it is present.  
+
+
+**Your Task:** 
+You don't need to read input or print anything. Your task is to complete the function `removeLoop()` which takes the head of the linked list as the input parameter. Simply remove the loop in the list (if present) without disconnecting any nodes from the list.
+Note: The generated output will be `1` if your submitted code is correct.
+
+
+**Expected Time Complexity:** `O(N)` 
+**Expected Auxiliary Space:** `O(1)`
+
+### Examples
+
+**Example 1:**   
+```
+Input:
+N = 3
+value[] = {1,3,4}
+X = 2
+Output: 1
+Explanation: The link list looks like
+1 -> 3 -> 4
+     ^    |
+     |____|    
+A loop is present. If you remove it 
+successfully, the answer will be 1. 
+```
+
+**Example 2:**   
+```
+Input:
+N = 4
+value[] = {1,8,3,4}
+X = 0
+Output: 1
+Explanation: The Linked list does not 
+contains any loop. 
+```
+
+
+**Example 3:**   
+```
+Input:
+N = 4
+value[] = {1,2,3,4}
+X = 1
+Output: 1
+Explanation: The link list looks like 
+1 -> 2 -> 3 -> 4
+|______________|
+A loop is present. 
+If you remove it successfully, 
+the answer will be 1.  
+```
+
+
+### Constraints
+
++ `1 <= N <= 10^4`
+
+## Solutions
+
+```cpp
+class Solution{
+    public:
+    //Function to remove a loop in the linked list.
+    void removeLoop(Node* head)
+    {
+        // code here
+        if(head==NULL) return;
+        Node* slow = head, *fast = head;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast){
+                if(slow==head){
+                    while(slow->next!=head) slow=slow->next;
+                    slow->next = NULL;
+                    return;
+                }
+                slow = head;
+                while(slow->next!=fast->next){
+                    slow=slow->next;
+                    fast=fast->next;
+                }
+                fast->next = NULL;
+                return;
+            }
+        }
+        // just remove the loop without losing any nodes
+    }
+};
+```
+
