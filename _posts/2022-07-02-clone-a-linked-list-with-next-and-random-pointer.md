@@ -40,8 +40,8 @@ NOTE :
 ```
 Input:
 N = 4, M = 2
-value = {1,2,3,4}
-pairs = {{1,2},{2,4}}
+value = [1,2,3,4]
+pairs = [[1,2],[2,4]]
 Output: 1
 Explanation: In this test case, there
 are 4 nodes in linked list.  Among these
@@ -60,8 +60,8 @@ is set to node 4.
 ```
 Input:
 N = 4, M = 2
-value[] = {1,3,5,9}
-pairs[] = {{1,1},{3,4}}
+value[] = [1,3,5,9]
+pairs[] = [[1,1],[3,4]]
 Output: 1
 Explanation: In the given testcase ,
 applying the method as stated in the
