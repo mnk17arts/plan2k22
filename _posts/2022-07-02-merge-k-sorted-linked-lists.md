@@ -30,7 +30,7 @@ The task is to complete the function `mergeKList()` which merges the `K` given l
 ```
 Input:
 K = 4
-value = {{1,2,3},{4 5},{5 6},{7,8}}
+value = [[1,2,3] [4 5],[5 6],[7,8]]
 Output: 1 2 3 4 5 5 6 7 8
 Explanation:
 The test case has 4 sorted linked 
@@ -47,7 +47,7 @@ The merged list will be
 ```
 Input:
 K = 3
-value = {{1,3},{4,5,6},{8}}
+value = [[1,3],[4,5,6],[8]]
 Output: 1 3 4 5 6 8
 Explanation:
 The test case has 3 sorted linked
