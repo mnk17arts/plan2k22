@@ -28,9 +28,9 @@ You don't need to read input or print anything. Complete the function `celebrity
 ```
 Input:
 N = 3
-M[][] = {{0 1 0},
-         {0 0 0}, 
-         {0 1 0}}
+M[][] = [[0 1 0],
+         [0 0 0], 
+         [0 1 0]]
 Output: 1
 Explanation: 0th and 2nd person both
 know 1. Therefore, 1 is the celebrity.
@@ -40,8 +40,8 @@ know 1. Therefore, 1 is the celebrity.
 ```
 Input:
 N = 2
-M[][] = {{0 1},
-         {1 0}}
+M[][] = [[0 1],
+         [1 0]]
 Output: -1
 Explanation: The two people at the party both
 know each other. None of them is a celebrity.
