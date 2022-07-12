@@ -33,7 +33,7 @@ You do not need to read input or print anything. Your task is to complete `merge
 ```
 Input:
 K = 3
-arr[][] = {{1,2,3},{4,5,6},{7,8,9}}
+arr[][] = [[1,2,3],[4,5,6],[7,8,9]]
 Output: 1 2 3 4 5 6 7 8 9
 Explanation:Above test case has 3 sorted
 arrays of size 3, 3, 3
@@ -48,8 +48,8 @@ The merged list will be
 ```
 Input:
 K = 4
-arr[][]={{1,2,3,4}{2,2,3,4},
-         {5,5,6,6},{7,8,9,9}}
+arr[][]=[[1,2,3,4][2,2,3,4],
+         [5,5,6,6],[7,8,9,9]]
 Output:
 1 2 2 2 3 3 4 4 5 5 6 6 7 8 9 9 
 Explanation: Above test case has 4 sorted
