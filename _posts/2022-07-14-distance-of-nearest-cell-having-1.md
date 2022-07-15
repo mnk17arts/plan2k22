@@ -29,8 +29,8 @@ You don't need to read or print anything, Your task is to complete the function 
 
 **Example 1:**   
 ```
-Input: grid = {{0,1,1,0},{1,1,0,0},{0,0,1,1}}
-Output: {{1,0,0,1},{0,0,1,1},{1,1,0,0}}
+Input: grid = [[0,1,1,0],[1,1,0,0],[0,0,1,1]]
+Output: [[1,0,0,1],[0,0,1,1],[1,1,0,0]]
 Explanation: The grid is-
 0 1 1 0 
 1 1 0 0 
@@ -44,8 +44,8 @@ respectively.
 
 **Example 2:**   
 ```
-Input: grid = {{1,0,1},{1,1,0},{1,0,0}}
-Output: {{0,1,0},{0,0,1},{0,1,2}}
+Input: grid = [[1,0,1],[1,1,0],[1,0,0]]
+Output: [[0,1,0],[0,0,1],[0,1,2]]
 Explanation: The grid is-
 1 0 1
 1 1 0
