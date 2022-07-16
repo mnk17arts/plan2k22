@@ -27,7 +27,7 @@ You don't need to read or print anything. Your task is to complete the function 
 
 **Example 1:**   
 ```
-Input: grid = {{X,O,X},{O,X,O},{X,X,X}}
+Input: grid = [[X,O,X],[O,X,O],[X,X,X]]
 Output: 3
 Explanation: 
 The grid is-
@@ -42,7 +42,7 @@ in the given grid.
 
 **Example 2:**   
 ```
-Input: grid = {{X,X},{X,X}}
+Input: grid = [[X,X],[X,X]]
 Output: 1
 Expanation: 
 The grid is- 

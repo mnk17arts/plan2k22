@@ -37,8 +37,8 @@ Note: In the valid path, for each block, if you are visiting the block then you 
 ```
 Input:
 N = 4
-maze[][] = {{2,1,0,0},{3,0,0,1},
-{0,1,0,1},{0,0,0,1}}
+maze[][] = [[2,1,0,0],[3,0,0,1],
+[0,1,0,1],[0,0,0,1]]
 Output:
 1 0 0 0
 1 0 0 1
@@ -59,8 +59,8 @@ m[3][3].
 ```
 Input:
 N = 4
-maze[][] = {{2,1,0,0}{2,0,0,1},
-{0,1,0,1},{0,0,0,1}}
+maze[][] = [[2,1,0,0][2,0,0,1],
+[0,1,0,1],[0,0,0,1]]
 Output: -1
 Explanation: As no path exists, so -1.
 ```

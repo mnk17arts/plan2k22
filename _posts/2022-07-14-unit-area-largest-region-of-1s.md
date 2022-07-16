@@ -29,7 +29,7 @@ You don't need to read or print anyhting. Your task is to complete the function 
 
 **Example 1:**   
 ```
-Input: grid = {{1,1,1,0},{0,0,1,0},{0,0,0,1}}
+Input: grid = [[1,1,1,0],[0,0,1,0],[0,0,0,1]]
 Output: 5
 Explanation: The grid is-
 1 1 1 0
@@ -39,7 +39,7 @@ Explanation: The grid is-
 
 **Example 2:**   
 ```
-Input: grid = {{0,1}}
+Input: grid = [[0,1]]
 Output: 1
 Explanation: The grid is-
 0 1
