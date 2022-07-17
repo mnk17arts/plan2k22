@@ -22,6 +22,7 @@ In the maze matrix, `0` means the block is the dead end and non-zero number mean
  
 
 **Your Task:** 
+
 You don't need to read input or print anything. Your task is to complete the function `solve()` which takes the Maze and its dimensions `N` as inputs and prints the valid path if it exists. If it does not exist, print `-1`
 Note: In the valid path, for each block, if you are visiting the block then you should print `1` for it else `0`. 
 

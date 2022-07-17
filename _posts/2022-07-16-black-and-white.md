@@ -15,9 +15,10 @@ minute: 10 min
 Given the chessboard dimensions. Find out the number of ways we can place a black and a white Knight on this chessboard such that they cannot attack each other.
 
 Note:
-The knights have to be placed on different squares. A knight can move two squares horizontally and one square vertically (L shaped), or two squares vertically and one square horizontally (L shaped). The knights attack each other if one can reach the other in one move. 
+The knights have to be placed on different squares. A knight can move two squares horizontally and one square vertically (`L` shaped), or two squares vertically and one square horizontally (`L` shaped). The knights attack each other if one can reach the other in one move. 
 
 **Your Task:** 
+
 Your task is to complete the function `numOfWays()` which takes the chessboard dimensions `N` and `M` as inputs and returns the number of ways we can place `2` Knights on this chessboard such that they cannot attack each other. Since this number can be very large, return it modulo `10^9+7`.
 
 

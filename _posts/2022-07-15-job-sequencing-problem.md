@@ -24,6 +24,7 @@ Note: Jobs will be given in the form (Jobid, Deadline, Profit) associated with t
  
 
 **Your Task:** 
+
 You don't need to read input or print anything. Your task is to complete the function `JobScheduling()` which takes an integer N and an array of Jobs(Job id, Deadline, Profit) as input and returns the count of jobs and maximum profit.
 
 

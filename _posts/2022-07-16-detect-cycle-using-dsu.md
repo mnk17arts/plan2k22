@@ -13,11 +13,12 @@ minute: 12 min
 
 ## Problem Statement - [*link*](https://practice.geeksforgeeks.org/batch-problems/detect-cycle-using-dsu/0/?track=DSASP-DisjointSet&batchId=154)  
 
-Given an undirected graph with V nodes and E edges. The task is to check if there is any cycle in undirected graph.
+Given an undirected graph with `V` nodes and `E` edges. The task is to check if there is any cycle in undirected graph.
 Note: Solve the problem using disjoint set union(dsu).
 
 **Your Task:** 
-You don't need to read or print anyhting. Your task is to complete the function detectCycle() which takes number of vertices in the graph denoting as V and adjacency list denoting as adj and returns 1 if graph contains any cycle otherwise returns 0.
+
+You don't need to read or print anyhting. Your task is to complete the function `detectCycle()` which takes number of vertices in the graph denoting as `V` and adjacency list denoting as `adj` and returns `1` if graph contains any cycle otherwise returns `0`.
 
 
 **Expected Time Complexity:** `O(V + E)`              

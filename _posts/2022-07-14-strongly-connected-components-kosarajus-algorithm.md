@@ -16,6 +16,7 @@ minute: 10 min
 Given a Directed Graph with `V` vertices (Numbered from `0` to `V-1`) and `E` edges, Find the number of strongly connected components in the graph.
 
 **Your Task:** 
+
 You don't need to read input or print anything. Your task is to complete the function `kosaraju()` which takes the number of vertices `V` and adjacency list of the graph as inputs and returns an integer denoting the number of strongly connected components in the given graph.
 
 

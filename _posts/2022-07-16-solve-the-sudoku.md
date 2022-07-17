@@ -18,9 +18,13 @@ Given an incomplete Sudoku configuration in terms of a `9 x 9`  2-D square matri
 
 
 **Your Task:** 
-You need to complete the two functions:
-`SolveSudoku()`: Takes a grid as its argument and returns `true` if a solution is possible and `false` if it is not.
+
+You need to complete the two functions: 
+
+`SolveSudoku()`: Takes a grid as its argument and returns `true` if a solution is possible and `false` if it is not. 
+
 `printGrid()`: Takes a grid as its argument and prints the `81` numbers of the solved Sudoku in a single line with space separation.
+
 NOTE: Do not give a new line character after printing the grid. It has already been taken care of in the Driver Code. 
 
 

@@ -17,6 +17,7 @@ Given a encoded binary string and a Huffman MinHeap tree, your task is to comple
 Note: Each node of the min heap contains `2` data members, a character and an integer to denote its frequency. The character '`$`' is the special character used for internal nodes whose min heap node only need a integer field. 
 
 **Your Task:** 
+
 You dont need to read input or print anything. Complete the function `decodeHuffmanData()` which takes the root of the Huffman min heap tree and the encoded Binary String as input parameters and returns the decoded string
 
 

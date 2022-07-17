@@ -16,6 +16,7 @@ Given  a grid of `n*m` consisting of `O`'s and `X`'s. The task is to find the nu
 Note: '`X`' shape consists of one or more adjacent `X`'s (diagonals not included).
 
 **Your Task:** 
+
 You don't need to read or print anything. Your task is to complete the function `xShape()` which takes grid as input parameter and returns the count of total `X` shapes.
 
 

@@ -18,12 +18,13 @@ You are given a graph where each edge has a weight associated with it.  Find the
 Minimum Spanning Tree: Given a connected and undirected graph, a spanning tree of that graph is a subgraph that is a tree and connects all the vertices together.  A single graph can have many different spanning trees.  A minimum spanning tree (MST) or minimum weight spanning tree for a weighted, connected and undirected graph is a spanning tree with weight less than or equal to the weight of every other spanning tree. The weight of a spanning tree is the sum of weights given to each edge of the spanning tree.
 
 **Your Task:** 
+
 You will have to complete the function `calcMinimumSpanningValue()` function will return the minimum spanning value.
 
 Note:
-Cpp: The graph is given as array of vector containing pairs i.e. if adj[2] = (3,4) it implies src = 2, des = 3 wt = 4
-Java: The graph is given as a Arraylist of a class Edge. Edge contains three variables- src, des, wt
-Python: The graph is given by an array of triplets (src,des,wt) 
+Cpp: The graph is given as array of vector containing pairs `i`.e. if `adj[2] = (3,4)` it implies `src = 2`, `des = 3` `wt = 4`
+Java: The graph is given as a Arraylist of a class Edge. Edge contains three variables- `src`, `des`, `wt`
+Python: The graph is given by an array of triplets (`src,des,wt`) 
 
 
 **Expected Time Complexity:** `O(N + M)`              

@@ -13,13 +13,14 @@ minute: 10 min
 
 ## Problem Statement - [*link*](https://practice.geeksforgeeks.org/batch-problems/number-of-connected-components/0/?track=DSASP-DisjointSet&batchId=154#)  
 
-This problem is to find the number of connected components. There will be 2 incomplete functions namely unionNodes and findNumberOfConnectedNodes. You have to complete these functions. 
+This problem is to find the number of connected components. There will be `2` incomplete functions namely `unionNodes` and `findNumberOfConnectedNodes`. You have to complete these functions. 
 
 unionNodes: Join two subsets into a single set.
 findNumberOfConnectedNodes: Determine number of different connected components in a graph. 
 
-**Your Task:** 
-You have to complete the function unionNodes() which merges the node1 and node2. You will also have to complete the function findNumberOfConnectedNodes() function will returntotal number of different connected components in a graph..
+**Your Task:**  
+
+You have to complete the function `unionNodes()` which merges the node1 and node2. You will also have to complete the function `findNumberOfConnectedNodes()` function will returntotal number of different connected components in a graph..
 
 
 **Expected Time Complexity:** `O(N)`           

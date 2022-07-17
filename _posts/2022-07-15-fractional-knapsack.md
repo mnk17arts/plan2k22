@@ -16,6 +16,7 @@ Given weights and values of `N` items, we need to put these items in a knapsack 
 Note: Unlike `0/1` knapsack, you are allowed to break the item. 
 
 **Your Task:** 
+
 Complete the function `fractionalKnapsack()` that receives maximum capacity , array of structure/class and size n and returns a double value representing the maximum value in knapsack.
 Note: The details of structure/class is defined in the comments above the given function.
 

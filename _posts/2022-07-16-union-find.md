@@ -19,9 +19,10 @@ Union: Join two subsets into a single set.
 isConnected: Determine which subset a particular element is in. This can be used for determining if two elements are in same subset.
 
 **Your Task:** 
-You have to complete the function union_() which merges the node1 and node2. You will also have to complete the function isConnected() which will return whether the two nodes are connected.
 
-Note: Both function will contain two arrays par[] and ranks1[] along with two nodes. Initially par[i] = i and rank1[i] = 1 
+You have to complete the function `union_()` which merges the node1 and node2. You will also have to complete the function `isConnected()` which will return whether the two nodes are connected.
+
+Note: Both function will contain two arrays `par[]` and `ranks1[]` along with two nodes. Initially `par[i] = i` and `rank1[i] = 1` 
 
 
 **Expected Time Complexity:** `O(N+Q)`           

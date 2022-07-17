@@ -18,6 +18,7 @@ What is the maximum number of meetings that can be accommodated in the meeting r
 Note: Start time of one chosen meeting can't be equal to the end time of the other chosen meeting. 
 
 **Your Task:** 
+
 You don't need to read inputs or print anything. Complete the function `maxMeetings()` that takes two arrays `start[]` and `end[]` along with their size `N` as input parameters and returns the maximum number of meetings that can be held in the meeting room.
 
 
