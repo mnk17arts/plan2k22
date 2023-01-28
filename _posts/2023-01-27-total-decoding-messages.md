@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Type it!                       
+title: Total Decoding Messages                     
 summary:
 tags:
-    - Total Decoding Messages
+    - geeksforgeeks
     - string
     - dynamic-programming
     - cpp
