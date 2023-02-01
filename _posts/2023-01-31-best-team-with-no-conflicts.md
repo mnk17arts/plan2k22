@@ -12,7 +12,7 @@ tags:
 minute: 10+ min
 ---
 
-## Problem Statement - [*link*](https://leetcode.com/problems/best-team-with-no-conflicts/description/  
+## Problem Statement - [*link*](https://leetcode.com/problems/best-team-with-no-conflicts/description/)  
 
 You are the manager of a basketball team. For the upcoming tournament, you want to choose the team with the highest overall score. The score of the team is the sum of scores of all the players in the team.
 
