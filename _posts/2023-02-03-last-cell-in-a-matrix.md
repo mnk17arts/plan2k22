@@ -71,7 +71,12 @@ class Solution{
     public:
     pair<int,int> endPoints(vector<vector<int>> matrix, int R, int C){
         //code here
-        pair<int ,int> dir[] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        pair<int ,int> dir[] = {
+            {0, 1}, 
+            {1, 0}, 
+            {0, -1}, 
+            {-1, 0}
+        };
         int cdir = 0;
         int r = 0 , c = 0;
         while(true) {
