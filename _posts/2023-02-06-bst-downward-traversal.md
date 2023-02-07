@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BST Downward Traversal                     
+title: BST Downward Traversal
 summary:
 tags:
     - geeksforgeeks

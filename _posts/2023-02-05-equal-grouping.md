@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Equal grouping                     
+title: Equal grouping
 summary:
 tags:
     - geeksforgeeks
     - array
-	- stack
+    - stack
     - cpp
     - medium
 minute: 10+ min
