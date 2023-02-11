@@ -158,6 +158,23 @@ html[data-theme="dark"] {
 	}
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--code-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--highlight-text-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--highlight-text-color);
+}
+
 body {
 	font-family: var(--text-font), monospace;
 	text-rendering: optimizeLegibility;
@@ -361,6 +378,11 @@ time {
 .post > time {
 	margin-bottom: 0;
 	margin-top: 3rem;
+}
+
+.post img {
+  max-width: 400px;
+  width: 90%;
 }
 
 .highlight {
