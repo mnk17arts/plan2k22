@@ -56,7 +56,7 @@ It costs 7 liters of fuel at minimum.
 It can be proven that 7 is the minimum number of liters of fuel needed.
 ```
 
-**Example 3:**
+**Example 3:**   
 <img src="https://assets.leetcode.com/uploads/2022/09/27/efcf7f7be6830b8763639cfd01b690a.png">
 ```
 Input: roads = [], seats = 1
