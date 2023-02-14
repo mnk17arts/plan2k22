@@ -1,6 +1,6 @@
 ---
 layout: post
-title: As Far from Land as Possible 
+title: Shortest Path with Alternating Colors 
 summary:
 tags:
     - leetcode
