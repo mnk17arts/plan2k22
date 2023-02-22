@@ -22,7 +22,7 @@ Note that the start time and end time is inclusive: that is, you cannot attend t
 
 ### Examples
 
-**Example 1:** 
+**Example 1:**  
 <img src="https://assets.leetcode.com/uploads/2021/09/21/picture5.png">
 ```
 Input: events = [[1,3,2],[4,5,2],[2,4,3]]
@@ -38,7 +38,7 @@ Output: 5
 Explanation: Choose event 2 for a sum of 5.
 ```
 
-**Example 3:**
+**Example 3:**  
 <img src="https://assets.leetcode.com/uploads/2021/09/21/picture3.png">
 ```
 Input: events = [[1,5,3],[1,5,1],[6,6,5]]
