@@ -12,7 +12,7 @@ minute: 10+ min
 
 ## Problem Statement - [_link_](https://practice.geeksforgeeks.org/problems/a6528c893d4ab645ec6e0690c7982748385099c8/1)
 
-You are given an array of n elements, initially all a[i] = 0. Q queries need to be performed. Each query contains three integers l, r, and x and you need to change all a[i] to (a[i] | x) for all l ≤ i ≤ r.
+You are given an array of n elements, initially all a[i] = 0. Q queries need to be performed. Each query contains three integers l, r, and x and you need to change all `a[i]` to `(a[i] | x)` for all `l ≤ i ≤ r`.
 
 Return the array after executing Q queries.
 
