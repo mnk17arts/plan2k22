@@ -138,6 +138,5 @@ class Solution{
         return false;
     }
 };
-};
 
 ```
