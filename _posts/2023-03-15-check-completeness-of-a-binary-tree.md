@@ -4,12 +4,11 @@ title: Check Completeness of a Binary Tree
 summary:
 tags:
   - leetcode
-  - dfs
   - bfs
   - tree
   - cpp
-  - easy
-minute: 5+ min
+  - medium
+minute: 10+ min
 ---
 
 ## Problem Statement - [_link_](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)
