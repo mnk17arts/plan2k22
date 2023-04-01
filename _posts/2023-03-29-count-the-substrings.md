@@ -48,7 +48,7 @@ condition. They are "Wo", "ensDAY",
 
 ### Constraints
 
-- `1 ≤ |S| ≤  10^73`
+- `1 ≤ |S| ≤  10^3`
 
 ## Solutions
 
